@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inconsolata:wght@200&family=Indie+Flower&display=swap');
+body{
+    background-image: -webkit-linear-gradient(65deg, rgb(231, 189, 196) 50%, #E4E9FD 50%);
+  
+    min-height: 1000px;
+    font-family: 'helvetica neue';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.skills{
+    display: flex;
+    width: auto;
+    height: 750px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.skills .os,.lang,.other,.databases{
+    margin: 10px;
+    background-color: rgba(216, 209, 209, 0.993);
+    list-style-type: none;
+    width: 350px;
+}
+.os ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.lang ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.databases ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.other ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+p{
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+.title{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+}
