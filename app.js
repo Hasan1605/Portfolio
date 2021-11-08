@@ -37,6 +37,6 @@ app.get("/more",function(req,res){
 app.get("/form",function(req,res){
     res.render("form")
 })
-app.listen(3001,function(){
+app.listen(process.env.PORT||3001,function(){
     console.log("Server is running on port 3001");
 })
