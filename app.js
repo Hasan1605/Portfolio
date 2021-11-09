@@ -28,7 +28,7 @@ app.get("/about",function(req,res){
 });
 
 app.get("/education",function(req,res){
-    res.render("form");
+    res.render("education");
 });
 
 app.get("/more",function(req,res){
