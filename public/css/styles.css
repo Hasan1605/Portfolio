@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inconsolata:wght@400&family=Indie+Flower&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inconsolata:wght@200&family=Indie+Flower&family=Montserrat:wght@200&family=Quicksand:wght@300&display=swap');
 body{
-    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    /* background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%); */
   
     min-height: 1000px;
     font-family: 'helvetica neue';
@@ -29,13 +30,21 @@ nav ul{
 }
 .name li{
     margin:30px;
-    font-family: cursive;
-    font-size: 35px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+
 }
 .links li{
     margin: 5px;
-    font-family: cursive;
+    font-family: 'Quicksand', sans-serif;
     font-size: 17px;
+    margin: 13px;
+}
+.links li a{
+    color: grey;
+}
+.name li a{
+    color: grey;
 }
 .links{
     display: flex;
@@ -56,10 +65,10 @@ nav ul{
 }
 .candidate{
     display: flex;
+    margin-top: -70px;
     align-items: center;
     background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-    
-    min-height: 1000px;
+    min-height: 800px;
     font-family: 'helvetica neue';
 }
 .hi p{
@@ -88,8 +97,7 @@ nav ul{
 }
 footer{
     text-align: left;
-    font-size: large;
-    font-family: cursive; 
+    font-size: large; 
     margin-top: 50px;
 }
 a{
@@ -99,17 +107,28 @@ a{
 a:visited{
     color:black;
 }
-.gfg,.codechef,.leetcode,.contact{
-    margin-left: 710px;
-    text-align: center;
-    margin-bottom: 35px;
-    text-align: center;
-    font-size: large;
-    font-family: cursive; 
+.gfg,.codechef,.leetcode,.contact,.copywrite{
+    font-weight: 400;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px;
+    
+    
 }
-
-
+.contact{
+    margin-left: 400px;
+}
+.leetcode{
+    margin-left: 500px;
+    color: grey;
+}
+.copywrite{
+    font-size: 15px;
+    text-align: left;
+    color: grey;
+}
 .education{
+    
     font-size: 50px;
     font-family: 'Montserrat', sans-serif;
     margin: 4px;
@@ -120,9 +139,13 @@ a:visited{
     margin: 4px;
 }
 .divEducation{
-    margin-top: 100px;
+
     font-family: 'Montserrat', sans-serif;
     margin: 4px;
+    height: 750px;
+    width: auto;
+    margin-bottom: -7s0px;
+
 }
 .divEducation img{
     display: flex;
@@ -227,10 +250,13 @@ p{
 .exheading{
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
-
+    
 }
 .exheading2{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-
+    
+}
+.headermain{
+    margin-bottom: 70px;
 }

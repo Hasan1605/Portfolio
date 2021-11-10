@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inconsolata:wght@200&family=Indie+Flower&display=swap');
 body{
-    background-image: -webkit-linear-gradient(65deg, rgb(231, 189, 196) 50%, #E4E9FD 50%);
-  
-    min-height: 1000px;
+    /* background-image: -webkit-linear-gradient(65deg, rgb(231, 189, 196) 50%, #E4E9FD 50%); */
+    
+    min-height: 800px;
     font-family: 'helvetica neue';
 }
 *{
@@ -15,51 +15,56 @@ body{
     display: flex;
     width: auto;
     height: 750px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
 .skills .os,.lang,.other,.databases{
     margin: 10px;
-    background-color: rgba(216, 209, 209, 0.993);
+    background-color: rgba(110, 113, 121, 0.082);
     list-style-type: none;
     width: 350px;
 }
+
 .os ul{
     text-align: center;
     list-style-type: none;
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 20px;
+
 }
 
 .lang ul{
     text-align: center;
     list-style-type: none;
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .databases ul{
     text-align: center;
     list-style-type: none;
     margin-top: 50px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .other ul{
     text-align: center;
     list-style-type: none;
     margin-top: 50px;
-    font-size: 30px;
+    font-size:20px;
 }
 
 p{
     text-align: center;
-    font-family: 'Indie Flower', cursive;
-    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
 .title{
     text-align: center;
-    font-family: 'Amatic SC', cursive;
-    font-size: 100px;
+    margin-top: 60px;
+    margin-bottom: -20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
 }
