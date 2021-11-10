@@ -79,21 +79,25 @@ nav ul{
 }
 .heading h1{
     text-align: center;
-    font-family: cursive;
+    /* font-family: cursive; */
+    font-family: 'Quicksand', sans-serif;
     font-size: 40px;
     margin-bottom: 50px;
 }
 .About{
+    float: left;
     display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
     align-items: center;
-    margin-left: 400px;
-    width: 800px;
     height: auto;
 }
 .About p{
-    font-family:Arial, Helvetica, sans-serif;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: 'Quicksand', sans-serif;
     font-size: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 160px;
+    font-weight:400;
 }
 footer{
     text-align: left;
@@ -101,8 +105,9 @@ footer{
     margin-top: 50px;
 }
 a{
-    cursor: pointer;
+    cursor:pointer;
     color: black;
+    font-weight: 500;
 }
 a:visited{
     color:black;
