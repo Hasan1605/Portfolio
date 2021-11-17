@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inconsolata:wght@400&family=Indie+Flower&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inconsolata:wght@200&family=Indie+Flower&family=Montserrat:wght@200&family=Quicksand:wght@300&display=swap');
+
 html,
 body {
-  height: 85%;
-  background-image: -webkit-linear-gradient(62deg, #A683E3 50%, #E4E9FD 50%);
-  min-height: 1000px;
-  font-family: 'helvetica neue';
+  height: 100%;
 }
 
 body {
-  display: flex;
+  display: flexbox;
+  /* place-items: calc(center); */
   align-items: center;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -21,18 +24,14 @@ body {
   padding: 15px;
   margin: auto;
 }
-.form-signin img{
-  border-radius: 50%;
-}
 
-
-.form-signin .checkbox {
+/*.form-signin .checkbox {
   font-weight: 400;
 }
 
 .form-signin .form-floating:focus-within {
   z-index: 2;
-}
+}*/
 
 .upper{
     margin-bottom: -1px;
@@ -40,36 +39,37 @@ body {
     border-bottom-right-radius: 0px;
     height: 50px;
 }
-.middle{
+.middle,.Address,.number{
     border-radius: 0px;
     height: 50px;
 }
-.Address{
-  border-radius: 0px;
-  height: 50px;
-}
-.number{
-  border-radius: 0px;
-  height: 50px;
-}
-.message{
-  border-radius: 0px;
-  height: 50px;
-   
-}
 .bottom{
- 
-  margin-top: -1px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  resize: none;
-  vertical-align:text-top;
-  height: 50px;
+    margin-top: -1px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 50px;
 }
 .btn-primary{
     width: 300px;
+    min-width: auto;
 }
-.form-floating label{
-  margin-right: 230px;
-  text-align: left;
+button{
+  background-color: aquamarine;
+}
+footer{
+  text-align: center;
+}
+.gfg,.codechef,.leetcode,.contact,.copywrite,.hackerrank{
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  margin: 2rem;
+    
+} 
+/* h1{
+  white-space: nowrap;
+} */
+a{
+  color: gray;
 }

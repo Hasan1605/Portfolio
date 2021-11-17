@@ -3,68 +3,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inconsolata:wght@200&family=Indie+Flower&display=swap');
 body{
     /* background-image: -webkit-linear-gradient(65deg, rgb(231, 189, 196) 50%, #E4E9FD 50%); */
-    
-    min-height: 800px;
+    width: fit-content;
+    height: max-content;
     font-family: 'helvetica neue';
 }
+
 *{
     margin: 0;
     padding: 0;
 }
 .skills{
     display: flex;
-    width: auto;
-    height: 750px;
+    /* width:100%; */
+    height: auto;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
+    margin-bottom: 20vw;
 }
 .skills .os,.lang,.other,.databases{
-    margin: 10px;
+    margin: 1vw;
     background-color: rgba(110, 113, 121, 0.082);
     list-style-type: none;
-    width: 350px;
+    width: 100%;
+  
 }
-
+.divskillsmain{
+    display: flexbox;
+    width: 100%;
+}
 .os ul{
     text-align: center;
     list-style-type: none;
-    margin-top: 50px;
-    font-size: 20px;
+    margin-top: 3.125rem;
+    font-size: 1.25rem;
 
 }
-
+.os img,.lang img,.databases img,.other img{
+    width:100%;
+    height: 40%;
+}
 .lang ul{
     text-align: center;
     list-style-type: none;
-    margin-top: 50px;
-    font-size: 20px;
+    margin-top: 4.125vw;
+    font-size: 1.25rem;
+    height: 70vh;
 }
 
 .databases ul{
     text-align: center;
     list-style-type: none;
-    margin-top: 50px;
-    font-size: 20px;
+    margin-top: 4.125vw;
+    font-size: 1.25rem;
 }
 
 .other ul{
     text-align: center;
     list-style-type: none;
-    margin-top: 50px;
-    font-size:20px;
+    margin-top: 4.125vw;
+    font-size: 1.25rem;
 }
 
 p{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    margin-bottom: 50px;
+    font-size: 1.25rem;
+    margin-bottom: 3.125vw;
 }
 .title{
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: -20px;
+    margin-top: 3.75vw;
+    margin-bottom: -1.25vw;
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
