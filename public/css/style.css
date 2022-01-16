@@ -8,30 +8,14 @@ body {
   height: 100%;
 }
 
-body {
-  display: flexbox;
-  /* place-items: calc(center); */
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f5f5f5;
-}
-
 .form-signin {
   width: 150%;
   height: max-content;
   max-width: 330px;
   padding: 15px;
   margin: auto;
-}
 
-/*.form-signin .checkbox {
-  font-weight: 400;
 }
-
-.form-signin .form-floating:focus-within {
-  z-index: 2;
-}*/
 
 .upper{
     margin-bottom: -1px;
@@ -57,7 +41,20 @@ button{
   background-color: aquamarine;
 }
 footer{
-  text-align: center;
+  justify-content: center;
+  font-size: large;
+  margin-top: 3.125rem;
+  flex-direction: column;
+  
+}
+@media screen and (max-width:1100px) {
+
+  footer div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
 }
 .gfg,.codechef,.leetcode,.contact,.copywrite,.hackerrank{
   text-align: center;
@@ -67,9 +64,6 @@ footer{
   margin: 2rem;
     
 } 
-/* h1{
-  white-space: nowrap;
-} */
 a{
   color: gray;
 }

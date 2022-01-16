@@ -38,9 +38,7 @@ app.get("/more",function(req,res){
 app.get("/form",function(req,res){
     res.render("form")
 })
-app.listen(process.env.PORT||3001,function(){
-    console.log("Server is running on port 3001");
-})
+
 app.post("/form", function (req, res) {
 
     const firstName = req.body.firstName;
@@ -96,13 +94,12 @@ app.post("/form", function (req, res) {
             console.log(JSON.parse(data));
         });
     
-    
-
-
     });
 
     request.write(jsonData);
     request.end();
-
-
+    
+});
+app.listen(process.env.PORT||3001,function(){
+    console.log("Server is running on port 3001");
 });
